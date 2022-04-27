@@ -1,6 +1,14 @@
 * {
   margin: 0;
+}
+
+body {
+  background-color: #fbf8cc;
   overflow-x: hidden;
+}
+
+img {
+  width: 90%;
 }
 
 .navbar {
@@ -10,6 +18,34 @@
   width: 200px;
   height: 100vh;
   background-color: #f5ee84;
+}
+
+.social-media {
+  position: absolute;
+  width: 200px;
+  bottom: 30px;
+}
+
+.social-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-ul li {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition-duration: .3s;
+}
+
+.social-ul li:hover{
+  background-color: #fbf8cc;
+}
+
+.social-ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
 }
 
 ul {
@@ -22,24 +58,43 @@ h2 {
 }
 
 .main {
-  width: 81vw;
+  width: 80vw;
   min-height: 100vh;
-  padding-left: 240px;
+  padding-left: 220px;
   margin: 0;
   background-color: #fbf8cc;
 }
 
+.main h1 {
+  padding: 20px 0;
+  border-bottom: 10px solid #f5ee84;
+  margin-bottom: 40px;
+}
+
 .link {
-  border-radius: 4px;
   padding: 5px 15px;
   text-decoration: none;
-  transition-duration: .3s;
+  transition-duration: .2s;
 }
 
 .link:hover {
-  background-color: #efefef;
+  margin-left: 10px;
+  background-color: #fbf8cc;
+  border-radius: 20px 0 0 20px;
 }
 
 link:visited {
   color: inherit;
+}
+
+code {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #6F6F6F;
+}
+
+span {
+  display: block;
 }

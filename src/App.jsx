@@ -13,6 +13,7 @@ import Internet from './components/Internet';
 import PackageManagers from './components/PackageManagers';
 import Security from './components/Security';
 import Testing from './components/Testing';
+import SocialMedia from './components/SocialMedia';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <h2>Luca Palminteri</h2>
           <hr />
           <Link className='link' to="/">Home</Link>
+          <Link className='link' to="/internet">Internet</Link>
           <Link className='link' to="/html">HTML</Link>
           <Link className='link' to="/css">CSS</Link>
           <Link className='link' to="/javascript">JavaScript</Link>
@@ -30,10 +32,10 @@ function App() {
           <Link className='link' to="/git">GIT</Link>
           <Link className='link' to="/buildtools">Build Tools</Link>
           <Link className='link' to="/cssframeworks">CSS Frameworks</Link>
-          <Link className='link' to="/internet">Internet</Link>
           <Link className='link' to="/packagemanagers">Package Managers</Link>
           <Link className='link' to="/security">Security</Link>
           <Link className='link' to="/testing">Testing</Link>
+          <SocialMedia />
       </ul>
 
       <Routes>
