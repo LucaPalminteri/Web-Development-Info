@@ -2,13 +2,24 @@
   margin: 0;
 }
 
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 150px;
+  height: 100vh;
   background-color: lightgoldenrodyellow;
+}
+
+
+.main {
+  background-color: aqua;
+  margin-left: 200px;
 }
 
 .link {
@@ -20,4 +31,8 @@
 
 .link:hover {
   background-color: #efefef;
+}
+
+link:visited {
+  color: inherit;
 }
