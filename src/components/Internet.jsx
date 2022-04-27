@@ -1,7 +1,10 @@
+import img from '../internet.jpg'
+
 export default function Internet() {
+
     return (
         <div className="main">
-            <h1>Internet</h1>
+            <h1 className='internet'>Internet</h1>
             <ul>
                 <li><a href="https://roadmap.sh/guides/what-is-internet">Introduction to Internet</a></li>
                 <li><a href="https://www.vox.com/2014/6/16/18076282/the-internet">What is the Internet?</a> </li>
