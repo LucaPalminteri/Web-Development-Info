@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+}
+
+.link {
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+.link:hover {
+  background-color: #efefef;
+}
