@@ -1,6 +1,6 @@
 export default function BuildTools() {
     return (
-        <div>
+        <div className="main">
             <h1>BuildTools</h1>
         </div>
     )

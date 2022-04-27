@@ -1,6 +1,6 @@
 export default function Git() {
     return (
-        <div>
+        <div className="main">
             <h1>GIT</h1>
         </div>
     )

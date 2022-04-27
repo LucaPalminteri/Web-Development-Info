@@ -1,6 +1,6 @@
 export default function Api() {
     return (
-        <div>
+        <div className="main">
             <h1>API</h1>
         </div>
     )

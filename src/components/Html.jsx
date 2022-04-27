@@ -1,6 +1,6 @@
 export default function Html() {
     return (
-        <div>
+        <div className="main">
             <h1>HTML</h1>
             <ul>
                 <li>Introduction to HTML</li>

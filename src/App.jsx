@@ -19,6 +19,8 @@ function App() {
   return (
     <div className='app'>
       <ul className='navbar'>
+          <h2>Luca Palminteri</h2>
+          <hr />
           <Link className='link' to="/">Home</Link>
           <Link className='link' to="/html">HTML</Link>
           <Link className='link' to="/css">CSS</Link>
@@ -33,8 +35,6 @@ function App() {
           <Link className='link' to="/security">Security</Link>
           <Link className='link' to="/testing">Testing</Link>
       </ul>
-
-      <hr />
 
       <Routes>
         <Route exact path='/' element={<Home />} />

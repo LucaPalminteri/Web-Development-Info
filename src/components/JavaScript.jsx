@@ -1,6 +1,6 @@
 export default function JavaScript() {
     return (
-        <div>
+        <div className="main">
             <h1>JavaScript</h1>
         </div>
     )

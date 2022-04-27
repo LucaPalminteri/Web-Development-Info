@@ -1,6 +1,6 @@
 export default function Css() {
     return (
-        <div>
+        <div className="main">
             <h1>CSS</h1>
             <ul>
                 <li>Introduction to CSS</li>

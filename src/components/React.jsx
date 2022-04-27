@@ -1,6 +1,6 @@
 export default function React() {
     return (
-        <div>
+        <div className="main">
         <h1>React</h1>
         <ul>
             <li>Introduction to React.js</li>
