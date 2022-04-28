@@ -7,3 +7,6 @@ The web has a navbar section wich contains all links to the subjects. The first 
 I separate this project into some of (I think) the most relevant things related to frontend web development; I try to focus more on React JS wchich is the technology that I'm currently working on. I also wanna explain the basics of JavaScript, from scratch.
 
 
+![alt text](https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
+
