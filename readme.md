@@ -9,4 +9,12 @@ I separate this project into some of (I think) the most relevant things related 
 
 ![alt text](https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
+### Luca Palminteri
+
+Get In Touch: 
+          <a href="https://lucapalminteri.com/" target="_blank">Website<a> | 
+          <a href="mailto:lucapalminteri02@gmail.com" target="_blank">Email<a> |
+          <a href="https://www.linkedin.com/in/luca-palminteri/" target="_blank">LinkedIn</a> |
+          <a href="https://t.me/Lucapo21" target="_blank">Telegram</a>
+
 
