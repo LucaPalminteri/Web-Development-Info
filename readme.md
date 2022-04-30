@@ -9,6 +9,9 @@ I separate this project into some of (I think) the most relevant things related 
 
 ![alt text](https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
+## Subjects
+I want to tackle mainly React and JavaScript, these are my biggest weapons related to programming.
+
 ### Luca Palminteri
 
 Get In Touch: 
