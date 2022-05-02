@@ -2,6 +2,7 @@ export default function Html() {
     return (
         <div className="main">
             <h1>HTML</h1>
+            <h2><a href="https://devdocs.io/html/">Official HTML Documentation</a></h2>
             <ul>
                 <li>Introduction to HTML</li>
                 <li>What is HTML?</li>

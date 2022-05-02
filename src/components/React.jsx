@@ -2,6 +2,7 @@ export default function React() {
     return (
         <div className="main">
         <h1>React</h1>
+        <h2><a href="https://reactjs.org/docs/getting-started.html">Official React Documentation</a></h2>
         <ul>
             <li>Introduction to React.js</li>
             <li>File & Folder structure</li>

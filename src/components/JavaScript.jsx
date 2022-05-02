@@ -2,7 +2,8 @@ export default function JavaScript() {
     return (
         <div className="main">
             <h1>JavaScript</h1>
-            <ul>
+            <h2><a href="https://devdocs.io/javascript/">Official JavaScript Documentation</a></h2>
+            <ul> 
                 <li>Introduction to JavaScript</li>
                 <li>Output</li>
                 <li>Statements</li>

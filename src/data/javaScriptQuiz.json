@@ -1,0 +1,392 @@
+{
+    "data" : [{
+        "id": 1,
+        "question": "¿Qué es JavaScript?",
+        "answer": "Everything..."
+    },{
+        "id": 2,
+        "question": "¿Cuales son los tipos de datos JavaScript?",
+        "answer": ""
+    },{
+        "id": 3,
+        "question": "¿Para qué sirve la función isNaN?",
+        "answer": ""
+    },{
+        "id": 4,
+        "question": "¿Es posible dividir el código JavaScript en varias líneas?",
+        "answer": ""
+    },{
+        "id": 5,
+        "question": "¿Qué empresa desarrolló JavaScript?",
+        "answer": ""
+    },{
+        "id": 6,
+        "question": "¿Qué son las variables no declaradas y no definidas?",
+        "answer": ""
+    },{
+        "id": 7,
+        "question": "Escriba un código para añadir nuevos elementos dinámicamente",
+        "answer": ""
+    },
+    {
+        "id": 8,
+        "question": "¿Qué son las variables globales, cómo se declaran estas variables y cuáles son los problemas asociados con su uso?",
+        "answer": ""
+    },
+    {
+        "id": 9,
+        "question": "¿Qué es un cuadro de diálogo?",
+        "answer": ""
+    },
+    {
+        "id": 10,
+        "question": "¿Qué significa la palabra clave 'this' en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 11,
+        "question": "Explique el funcionamiento de los temporizadores en JavaScript y las desventajas de usarlos, si las hay.",
+        "answer": ""
+    },
+    {
+        "id": 12,
+        "question": "¿Qué símbolo se utiliza para los comentarios en Javascript?",
+        "answer": ""
+    },
+    {
+        "id": 13,
+        "question": "¿Cuál es la diferencia entre ViewState y SessionState?",
+        "answer": ""
+    },
+    {
+        "id": 14,
+        "question": "¿Qué es el operador ===?",
+        "answer": ""
+    },
+    {
+        "id": 15,
+        "question": "Explique cómo se puede enviar un formulario usando JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 16,
+        "question": "¿JavaScript es compatible con la conversión de tipos automática (automatic type conversion)?",
+        "answer": ""
+    },
+    {
+        "id": 17,
+        "question": "¿Cómo se puede cambiar el estilo/clase de un elemento?",
+        "answer": ""
+    },
+    {
+        "id": 18,
+        "question": "Explica cómo leer y escribir un archivo usando JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 19,
+        "question": "¿Cuáles son todos los bucles en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 20,
+        "question": "¿A qué se le llama tipificación de variables (variable typing) en Javascript?",
+        "answer": ""
+    },
+    {
+        "id": 21,
+        "question": "¿Cómo se puede convertir un string de cualquier base a un entero en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 22,
+        "question": "Explica la diferencia entre '==' y '===='",
+        "answer": ""
+    },
+    {
+        "id": 23,
+        "question": "¿Cuál sería el resultado de 3+2+''7''?",
+        "answer": ""
+    },
+    {
+        "id": 24,
+        "question": "¿Cómo se puede detectar el sistema operativo de la máquina del cliente?",
+        "answer": ""
+    },
+    {
+        "id": 25,
+        "question": "¿Qué significa NULL en Javascript?",
+        "answer": ""
+    },
+    {
+        "id": 26,
+        "question": "¿Cuál es la función del operador delete?",
+        "answer": ""
+    },
+    {
+        "id": 27,
+        "question": "¿Qué es un valor no definido en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 28,
+        "question": "¿Cuáles son todos los tipos de ventanas emergentes disponibles en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 29,
+        "question": "¿Para qué se utiliza Void (0)?",
+        "answer": ""
+    },
+    {
+        "id": 30,
+        "question": "¿Cómo se puede forzar a una página a cargar otra página en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 31,
+        "question": "¿Cuál es el tipo de datos de variables en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 32,
+        "question": "¿Cuál es la diferencia entre un cuadro de alerta y un cuadro de confirmación?",
+        "answer": ""
+    },
+    {
+        "id": 33,
+        "question": "¿Qué son los caracteres de escape?",
+        "answer": ""
+    },
+    {
+        "id": 34,
+        "question": "¿Qué son las cookies de JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 35,
+        "question": "Explique el método pop()en JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 36,
+        "question": "Mencione cual es la desventaja de usar innerHTML en JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 37,
+        "question": "¿Qué son las declaraciones break y continue?",
+        "answer": ""
+    },
+    {
+        "id": 38,
+        "question": "¿Cuáles son los dos grupos básicos de tipos de datos en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 39,
+        "question": "¿Cómo se pueden crear objetos genéricos?",
+        "answer": ""
+    },
+    {
+        "id": 40,
+        "question": "¿Para qué sirve el operador typeof?",
+        "answer": ""
+    },
+    {
+        "id": 41,
+        "question": "¿Qué palabras clave se usan para manejar las excepciones?",
+        "answer": ""
+    },
+    {
+        "id": 42,
+        "question": "¿Qué palabra clave se utiliza para mostrar un texto en pantalla?",
+        "answer": ""
+    },
+    {
+        "id": 43,
+        "question": "¿Para qué sirve el evento blur?",
+        "answer": ""
+    },
+    {
+        "id": 44,
+        "question": "¿Qué es la tipificación de variables?",
+        "answer": ""
+    },
+    {
+        "id": 45,
+        "question": "¿Cómo puedo saber la versión del navegador que está usando el cliente?",
+        "answer": ""
+    },
+    {
+        "id": 46,
+        "question": "¿Cuáles son los diferentes tipos de errores en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 47,
+        "question": "¿Para qué sirve el método Push en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 48,
+        "question": "¿Qué es el método unshift en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 49,
+        "question": "¿Cómo se asignan las propiedades a los objetos?",
+        "answer": ""
+    },
+    {
+        "id": 50,
+        "question": "¿Qué es el modo 'Estricto' (Strict) en JavaScript y cómo se puede habilitar?",
+        "answer": ""
+    },
+    {
+        "id": 51,
+        "question": "¿Cuál es la forma de obtener el estado de un CheckBox?",
+        "answer": ""
+    },
+    {
+        "id": 52,
+        "question": "Explique para que sirve window.onload y onDocumentReady.",
+        "answer": ""
+    },
+    {
+        "id": 53,
+        "question": "¿Cómo funcionan los 'closures' en JavaScript? ¿Cuándo se utilizan?",
+        "answer": ""
+    },
+    {
+        "id": 54,
+        "question": "¿Cómo se puede añadir un valor a un array?",
+        "answer": ""
+    },
+    {
+        "id": 55,
+        "question": "¿Explica el bucle de for-in?",
+        "answer": ""
+    },
+    {
+        "id": 56,
+        "question": "Describa las propiedades de una función anónima en JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 57,
+        "question": "¿Cuál es la diferencia entre .call() y .apply()?",
+        "answer": ""
+    },
+    {
+        "id": 58,
+        "question": "Defina el burbujeo de eventos (Event Bubbling)",
+        "answer": ""
+    },
+    {
+        "id": 59,
+        "question": "¿Es JavaScript sensible a mayúsculas y minúsculas?",
+        "answer": ""
+    },
+    {
+        "id": 60,
+        "question": "¿Qué operadores booleanos se pueden utilizar en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 61,
+        "question": "¿Cómo se puede seleccionar un frame en particular desde un hipervínculo en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 62,
+        "question": "¿Cuál es la regla de las de las declaraciones break y continue?",
+        "answer": ""
+    },
+    {
+        "id": 63,
+        "question": "¿Cual es la diferencia entre un web-garden y una web-farm?",
+        "answer": ""
+    },
+    {
+        "id": 64,
+        "question": "¿Cómo se asignan las propiedades de los objetos?",
+        "answer": ""
+    },
+    {
+        "id": 65,
+        "question": " ¿Cuál es el método para leer y escribir un archivo en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 66,
+        "question": "¿Cómo se utiliza DOM en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 67,
+        "question": "¿Cómo se utilizan los manejadores de eventos en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 68,
+        "question": "Explique el papel de los scripts diferidos en JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 69,
+        "question": "¿Cuáles son los distintos componentes funcionales de JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 70,
+        "question": "Comente sobre los errores que se pueden mostrar en JavaScript.",
+        "answer": ""
+    },
+    {
+        "id": 71,
+        "question": "¿Qué son los objetos de pantalla?",
+        "answer": ""
+    },
+    {
+        "id": 72,
+        "question": "Explique el método unshift()",
+        "answer": ""
+    },
+    {
+        "id": 73,
+        "question": "Defina las funciones escape() y unescape()",
+        "answer": ""
+    },
+    {
+        "id": 74,
+        "question": "¿Qué hace decodeURI() y encodeURI()?",
+        "answer": ""
+    },
+    {
+        "id": 75,
+        "question": "¿Por qué no se recomienda utilizar innerHTML en JavaScript?",
+        "answer": ""
+    },
+    {
+        "id": 76,
+        "question": "¿Qué declara la siguiente declaración?",
+        "answer": ""
+    },
+    {
+        "id": 77,
+        "question": "¿Cómo se relacionan JavaScript y ECMA Script?",
+        "answer": ""
+    },
+    {
+        "id": 78,
+        "question": "¿Qué es el namespacing en JavaScript y cómo se utiliza?",
+        "answer": ""
+    },
+    {
+        "id": 79,
+        "question": "¿Cómo se pueden ocultar los códigos JavaScript de los navegadores antiguos que no soportan JavaScript?",
+        "answer": ""
+    }
+    ]
+}

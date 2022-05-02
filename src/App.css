@@ -20,6 +20,10 @@ img {
   background-color: #f5ee84;
 }
 
+.navbar a {
+  color: #000;
+}
+
 .social-media {
   position: absolute;
   width: 200px;
@@ -34,7 +38,7 @@ img {
 .social-ul li {
   display: inline-block;
   padding: 4px 8px;
-  border-radius: 6px;
+  border-radius: 50%;
   transition-duration: .3s;
 }
 
@@ -52,7 +56,7 @@ ul {
   padding-left: 0;
 }
 
-h2 {
+.navbar h2 {
   text-align: center;
   padding: 10px 0;
 }
@@ -81,10 +85,6 @@ h2 {
   margin-left: 10px;
   background-color: #fbf8cc;
   border-radius: 20px 0 0 20px;
-}
-
-link:visited {
-  color: inherit;
 }
 
 code {
