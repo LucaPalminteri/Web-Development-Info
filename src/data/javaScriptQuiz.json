@@ -2,81 +2,81 @@
     "data" : [{
         "id": 1,
         "question": "¿Qué es JavaScript?",
-        "answer": "Everything..."
+        "answer": "JavaScript es un lenguaje de programación que ha sido concebido para profesionales y todos los que se desenvuelven en el desarrollo de paginas web. Es un lenguaje que funciona del lado del cliente y servidor, por tanto, son los navegadores los que se ocupan de interpretar el lenguaje Javascript. Vale resaltar que JavaScript no es lo mismo que Java."
     },{
         "id": 2,
         "question": "¿Cuales son los tipos de datos JavaScript?",
-        "answer": ""
+        "answer": "Los tipos de datos JavaScript son: String, booleano, Objeto, Número, Indefinido."
     },{
         "id": 3,
         "question": "¿Para qué sirve la función isNaN?",
-        "answer": ""
+        "answer": "La función isNan devuelve verdadero si el argumento no es un número porque de lo contrario arrojaría un falso."
     },{
         "id": 4,
         "question": "¿Es posible dividir el código JavaScript en varias líneas?",
-        "answer": ""
+        "answer": "Si, haciendo una declaracion string con el uso de una barra invertida (slash), '\\', al terminar la primera línea"
     },{
         "id": 5,
         "question": "¿Qué empresa desarrolló JavaScript?",
-        "answer": ""
+        "answer": "La compañía de software Netscape fue quien desarrolló el JavaScript."
     },{
         "id": 6,
         "question": "¿Qué son las variables no declaradas y no definidas?",
-        "answer": ""
+        "answer": "Variables no declaradas: son las que no existen en un programa, y no se declaran. Si el programa trata de leer su valor entonces va a arrojar un error.'\n'Variables no definidas: son aquellas declaradas en el programa, pero no tienen asignado ningún valor. Si el programa quiere leer el valor de  variable no definida, se devuelve un valor no definido."
     },{
         "id": 7,
         "question": "Escriba un código para añadir nuevos elementos dinámicamente",
-        "answer": ""
+        "answer": "createElement y appendChild"
     },
     {
         "id": 8,
         "question": "¿Qué son las variables globales, cómo se declaran estas variables y cuáles son los problemas asociados con su uso?",
-        "answer": ""
+        "answer": "Las variables globales son las que están a disposición para utilizar en todo el código, esto quiere decir, que no tienen alcance. La palabra clave (var) es utilizada para declarar una variable u objeto local. Si la palabra clave (var) es omitida, se declara como variable global."
     },
     {
         "id": 9,
         "question": "¿Qué es un cuadro de diálogo?",
-        "answer": ""
+        "answer": "Es un cuadro que permite al usuario introducir datos, mediante un cuadro de texto. La etiqueta y el cuadro se suministrarán para que se pueda ingresar el texto o el número."
     },
     {
         "id": 10,
         "question": "¿Qué significa la palabra clave 'this' en JavaScript?",
-        "answer": ""
+        "answer": "La palabra clave 'this' se refiere al objeto desde donde fue llamado."
     },
     {
         "id": 11,
         "question": "Explique el funcionamiento de los temporizadores en JavaScript y las desventajas de usarlos, si las hay.",
-        "answer": ""
+        "answer": "Los temporizadores se usan para ejecutar un fragmento de código en un momento determinado o para repetir el código en un espacio de tiempo señalado. Esto se hace utilizando las funciones setTimeout, setInterval y clearInterval. La función setTimeout (function, delay), es una funcion que se usa para iniciar un temporizador que llama a una funcion luego del retardo especificado. La función setInterval (function, delay) es utilizada para ejecutar repetidamente una función el el retardo (delay) que se especifique y solo se detiene cuando se cancela. La función clearInterval(id) es la que señala  al temporizador que se pare. Los temporizadores funcionan dentro de un hilo único, debido a esto,  los eventos pueden quedar 'en cola', a la espera de ser ejecutados."
     },
     {
         "id": 12,
         "question": "¿Qué símbolo se utiliza para los comentarios en Javascript?",
-        "answer": ""
+        "answer": "Se usa (//) para comentarios de una sola línea. Para comentarios multi-linea se abre con (/*) y se cierra con (*/)."
     },
     {
         "id": 13,
         "question": "¿Cuál es la diferencia entre ViewState y SessionState?",
-        "answer": ""
+        "answer": "'ViewState' es muy específico para la página de una sesión.'SessionState' es específico para los datos del usuario, a los que se entra en las páginas de la aplicación web."
     },
     {
         "id": 14,
         "question": "¿Qué es el operador ===?",
-        "answer": ""
+        "answer": "El operador (===) es llamado operador de igualdad estricta, el cual arroja verdadero (true) cuando los dos operandos poseen el mismo valor sin ningún tipo de conversión."
     },
     {
         "id": 15,
         "question": "Explique cómo se puede enviar un formulario usando JavaScript.",
-        "answer": ""
+        "answer": "document.form[0].submit();"
     },
     {
         "id": 16,
         "question": "¿JavaScript es compatible con la conversión de tipos automática (automatic type conversion)?",
-        "answer": ""
+        "answer": "Sí, Javascript es compatible con los tipos de  conversión automática. Es un tipo de conversión muy usada por los desarrolladores de JavaScript."
     },
     {
         "id": 17,
         "question": "¿Cómo se puede cambiar el estilo/clase de un elemento?",
-        "answer": ""
+        "answer": "document.getElementById('myText').style."
     },
     {
         "id": 18,

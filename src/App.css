@@ -99,3 +99,15 @@ code {
 span {
   display: block;
 }
+
+.interview-card {
+  border-bottom: 1px solid;
+  margin: 20px 0;
+}
+
+.interview-card p {
+  background-color: #DFDFDF;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}

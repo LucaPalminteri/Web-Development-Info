@@ -13,6 +13,9 @@ export default function Api() {
                 <li>APIs, web services, and microservices</li>
                 <li>APIs and cloud architecture</li>
                 <li><a href="https://blog.hubspot.com/website/api-endpoint">What Is an API Endpoint?</a></li>
+                <li><a href="https://www.restapitutorial.com/lessons/whatisrest.html">What Is REST?</a></li>
+                <li><a href="https://restfulapi.net/">What is REST(2nd)</a></li>
+                <li><a href="https://zapier.com/learn/apis/">Introduction to APIs</a></li>
             </ul>
         </div>
     )

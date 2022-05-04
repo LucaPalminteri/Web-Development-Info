@@ -3,7 +3,7 @@ import javaScriptQuiz from "../data/javaScriptQuiz.json";
 export default function englishInterview() {
   const quiz = javaScriptQuiz.data.map((question) => {
     return (
-      <div key={question.id}>
+      <div key={question.id} className='interview-card'>
         <details>
           <summary>{question.question}</summary>
           <p>{question.answer}</p>
