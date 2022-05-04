@@ -1,22 +1,28 @@
+import InnerMenu from "./InnerMenu"
+
+const dataMenu = ['syntax','variables','functions','objects','dom']
+
 export default function JavaScript() {
+
     return (
         <div className="main">
             <h1>JavaScript</h1>
+            <InnerMenu value={dataMenu}/>
             <h2><a href="https://devdocs.io/javascript/">Official JavaScript Documentation</a></h2>
             <ul> 
                 <li>Introduction to JavaScript</li>
                 <li>Output</li>
                 <li>Statements</li>
-                <li>Syntax</li>
+                <li id="syntax">Syntax</li>
                 <li>Comments</li>
-                <li>Variables</li>
+                <li id="variables">Variables</li>
                 <li>Let</li>
                 <li>Const</li>
                 <li>Operators</li>
                 <li>Arithmetic</li>
                 <li>Assignment</li>
                 <li>Data Types</li>
-                <li>Functions</li>
+                <li id="functions">Functions</li>
                 <ul>
                     <li>Definitions</li>
                     <li>Parameters</li>
@@ -26,7 +32,7 @@ export default function JavaScript() {
                     <li>Bind</li>
                     <li>Closures</li>
                 </ul>
-                <li>Objects</li>
+                <li id="objects">Objects</li>
                 <ul>
                     <li>Definitions</li>
                     <li>Properties</li>
@@ -101,7 +107,7 @@ export default function JavaScript() {
                     <li>Promises</li>
                     <li>Async/Await</li>
                 </ul>
-                <li>JS HTML DOM</li>
+                <li id="dom">JS HTML DOM</li>
                 <ul>
                     <li>Intro</li>
                     <li>Methods</li>
