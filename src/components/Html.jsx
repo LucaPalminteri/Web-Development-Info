@@ -1,18 +1,19 @@
-
-
+import InnerMenu from "./InnerMenu"
+const dataMenu = ['introduction','tags','attributes','form','responsive']
 
 export default function Html() {
     return (
         <div className="main">
+            <InnerMenu value={dataMenu}/>
             <h1>HTML</h1>
             <h2><a href="https://devdocs.io/html/">Official HTML Documentation</a></h2>
             <ul>
-                <li>Introduction to HTML</li>
+                <li id={dataMenu[0]}>Introduction to HTML</li>
                 <li>What is HTML?</li>
                 <li>HTML text editors</li>
                 <li>Building Blocks</li>
-                <li>Tags</li>
-                <li>Attributes</li>
+                <li id={dataMenu[1]}>Tags</li>
+                <li id={dataMenu[2]}>Attributes</li>
                 <li>Elements</li>
                 <li>Formatting</li>
                 <li>Heading</li>
@@ -24,7 +25,7 @@ export default function Html() {
                 <li>Ordered List</li>
                 <li>Unordered List</li>
                 <li>Description List</li>
-                <li>Form</li>
+                <li id={dataMenu[3]}>Form</li>
                 <li>Form Input</li>
                 <li>Form Attribute</li>
                 <li>With CSS</li>
@@ -35,7 +36,7 @@ export default function Html() {
                 <li>File Path</li>
                 <li>Head</li>
                 <li>Layout</li>
-                <li>Responsive</li>
+                <li id={dataMenu[4]}>Responsive</li>
                 <li>Symbols</li>
                 <li>Charset</li>
                 <li>URL encode</li>

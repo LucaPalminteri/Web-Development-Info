@@ -1,18 +1,23 @@
+import InnerMenu from "./InnerMenu"
+
+const dataMenu = ['syntax','selectors','colors','padding','margin']
+
 export default function Css() {
     return (
         <div className="main">
+            <InnerMenu value={dataMenu}/>
             <h1>CSS</h1>
             <h2><a href="https://devdocs.io/css/">Official CSS Documentation</a></h2>
             <ul> 
                 <li>Introduction to CSS</li>
-                <li>Syntax</li>
-                <li>Selectors</li>
+                <li id="syntax">Syntax</li>
+                <li id="selectors">Selectors</li>
                 <li>Comments</li>
-                <li>Colors</li>
+                <li id="colors">Colors</li>
                 <li>Backgrounds</li>
                 <li>Borders</li>
-                <li>Margins</li>
-                <li>Padding</li>
+                <li id="margin">Margins</li>
+                <li id="padding">Padding</li>
                 <li>Height/Width</li>
                 <li>Box Model</li>
                 <li>Outline</li>

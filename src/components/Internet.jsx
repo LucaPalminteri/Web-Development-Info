@@ -1,19 +1,22 @@
-import img from '../internet.jpg'
+import InnerMenu from './InnerMenu'
+
+const dataMenu = ['introduction','internet','http','dns','hosting']
 
 export default function Internet() {
 
     return (
         <div className="main">
+            <InnerMenu value={dataMenu}/>
             <h1 className='internet'>Internet</h1>
             <ul>
-                <li><a href="https://roadmap.sh/guides/what-is-internet">Introduction to Internet</a></li>
-                <li><a href="https://www.vox.com/2014/6/16/18076282/the-internet">What is the Internet?</a> </li>
+                <li id={dataMenu[0]}><a href="https://roadmap.sh/guides/what-is-internet">Introduction to Internet</a></li>
+                <li id={dataMenu[1]}><a href="https://www.vox.com/2014/6/16/18076282/the-internet">What is the Internet?</a> </li>
                 <li>How does the Internet works?</li>
                 <ul>
                     <li><a href="https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">Reading</a> </li>
                     <li><a href="https://www.youtube.com/watch?v=x3c1ih2NJEg">Video</a> </li>
                 </ul>
-                <li>What is HTTP?</li>
+                <li id={dataMenu[2]}>What is HTTP?</li>
                 <ul>
                     <li><a href="https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/">What is HTTP?</a></li>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">An overview of HTTP</a></li>
@@ -28,7 +31,7 @@ export default function Internet() {
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work">Populating the Page: How Browsers Work</a></li>
                     <li><a href="https://www.youtube.com/watch?v=WjDrMKZWCt0">How Do Web Browsers Work?</a></li>
                 </ul>
-                <li>DNS and how they works?</li>
+                <li id={dataMenu[3]}>DNS and how they works?</li>
                 <ul>
                     <li><a href="https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/">What is DNS?</a></li>
                     <li><a href="https://www.youtube.com/watch?v=Wj0od2ag5sk">DNS and How does it Work?</a></li>
@@ -41,7 +44,7 @@ export default function Internet() {
                     <li><a href="https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/">What is a Domain Name? | Domain name vs. URL</a></li>
                     <li><a href="https://www.youtube.com/watch?v=Y4cRx19nhJk">A Beginners Guide to How Domain Names Work</a></li>
                 </ul>
-                <li>What is hosting</li>
+                <li id={dataMenu[4]}>What is hosting</li>
                 <ul>
                     <li><a href="https://www.youtube.com/watch?v=htbY9-yggB0">What Is Web Hosting? Explained</a></li>
                     <li><a href="https://www.youtube.com/watch?v=AXVZYzw8geg">Different Types of Web Hosting Explained</a></li>
