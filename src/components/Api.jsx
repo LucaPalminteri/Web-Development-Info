@@ -9,7 +9,7 @@ export default function Api() {
             <h1>API</h1>
             <ul>
                 <li id="http"><a href="https://medium.com/@imamun/a-simple-api-summary-e84af524aa11">Summary</a></li>
-                <li><a href="https://www.ibm.com/cloud/learn/api">What is an application programming interface (API)?</a></li>
+                <li><a href="https://www.ibm.com/cloud/learn/api" target='_blank'>What is an application programming interface (API)?</a></li>
                 <li id="api">How API works?</li>
                 <li>Why we need APIs?</li>
                 <li>Common API examples</li>
