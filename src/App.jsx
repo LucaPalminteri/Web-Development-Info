@@ -17,7 +17,6 @@ import SocialMedia from './components/SocialMedia';
 import EnglishInterview from './components/englishInterview';
 
 function App() {
-
   return (
     <div className='app'>
       <ul className='navbar'>
